@@ -28,6 +28,7 @@ const scriptDir = path.dirname(scriptPath)
 const platformMap = {
   darwin: "darwin",
   linux: "linux",
+  android: "linux", // Termux on Android can run Linux ARM64 binaries
   win32: "windows",
 }
 const archMap = {
