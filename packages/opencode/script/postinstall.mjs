@@ -19,6 +19,10 @@ function detectPlatformAndArch() {
     case "linux":
       platform = "linux"
       break
+    case "android":
+      // Termux on Android can run Linux ARM64 binaries
+      platform = "linux"
+      break
     case "win32":
       platform = "windows"
       break
